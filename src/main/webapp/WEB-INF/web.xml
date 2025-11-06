@@ -4,23 +4,7 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
                              https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
-
-    <!-- CONFIGURAÇÃO DA PÁGINA INICIAL -->
     <welcome-file-list>
         <welcome-file>menu.html</welcome-file>
     </welcome-file-list>
-
-    <!-- SERVLETS (mantenha todos os que já existem) -->
-    <!-- Exemplo: -->
-    <!--
-    <servlet>
-        <servlet-name>Logar</servlet-name>
-        <servlet-class>com.example.sistemaprodutos.Logar</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Logar</servlet-name>
-        <url-pattern>/logar</url-pattern>
-    </servlet-mapping>
-    -->
-
 </web-app>
